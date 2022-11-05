@@ -46,7 +46,7 @@
             android:id="@+id/coins"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="You have: 50"
+            android:text="You have: 0"
             android:textColor="@color/white" />
 
         <ImageView
@@ -75,7 +75,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView3">
 
         <ImageView
-            android:id="@+id/coinsImage"
+            android:id="@+id/rewardBtn"
             android:layout_width="16dp"
             android:layout_height="16dp"
             android:layout_weight="1"
@@ -112,29 +112,17 @@
     </com.mikhaellopez.circularimageview.CircularImageView>
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_bold"
-        android:text="100"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
-        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
-        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
-
-    <TextView
         android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/roboto_light"
         android:gravity="center"
         android:text="Persons are looking for random people. Click find and talk with them."
         android:textColor="#FFFCFC"
         app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
         app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
 
     <Button
         android:id="@+id/findBtn"

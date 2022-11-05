@@ -88,13 +88,13 @@ public class ConnectingActivity extends AppCompatActivity {
 
                             database.getReference()
                                     .child("users")
-//                                    .child("username")
+                                    .child(username)
                                     .setValue(room).addOnSuccessListener(new OnSuccessListener<Void>() {
                                         @Override
                                         public void onSuccess(Void unused) {
                                             database.getReference()
                                                     .child("users")
-                                                    .child("username").addValueEventListener(new ValueEventListener() {
+                                                    .child(username).addValueEventListener(new ValueEventListener() {
                                                         @Override
                                                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                                                             if(snapshot.child("status").exists()){

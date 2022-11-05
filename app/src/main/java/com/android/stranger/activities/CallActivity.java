@@ -263,6 +263,7 @@ public class CallActivity extends AppCompatActivity {
         super.onDestroy();
         pageExit = true;
         firebaseRef.child(createdBy).setValue(null);
+//        binding.webView.loadUrl("");
 //        firebaseRef.child(username).child(createdBy).setValue(null); //change is there
 
         finish();

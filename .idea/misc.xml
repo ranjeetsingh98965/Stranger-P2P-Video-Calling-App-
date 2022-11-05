@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/drawable/grey_bg.xml" value="0.2475" />
+        <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/drawable/round.xml" value="0.1" />
         <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/layout/activity_call.xml" value="0.25" />
         <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/layout/activity_connecting.xml" value="0.25" />
         <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/layout/activity_reward.xml" value="0.2677165354330709" />
         <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
+        <entry key="..\:/Users/Happy/AndroidStudioProjects/Stranger/app/src/main/res/layout/progress_bar.xml" value="0.23641304347826086" />
       </map>
     </option>
   </component>
